@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>戲劇系 - 暗戀桃花源</title>
+  <style>
+    body {
+      background-image: url('background-image.jpg');
+      background-size: cover;
+      color: #000; /* 修改文字顏色為黑色 */
+    }
+    .jumbotron {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    .university-image {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 降落頁的封面部分 -->
+  <div class="jumbotron text-center">
+    <img src="university-image.jpg" alt="台灣藝術大學" class="university-image">
+    <h1 class="display-4">戲劇系 - 暗戀桃花源</h1>
+    <p class="lead">探索藝術的奇妙世界，感受戲劇的無窮魅力</p>
+    <hr class="my-4">
+    <p>加入我們，一同走進夢幻的舞台</p>
+    <a class="btn btn-primary btn-lg" href="#about" role="button">了解更多</a>
+  </div>
+
+  <!-- 關於戲劇系的部分 -->
+  <section id="about" class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>關於我們</h2>
+        <p>台灣藝術大學戲劇系致力於培養具有豐富戲劇藝術知識與實踐經驗的專業人才。我們提供多元的課程，讓學生從事劇場表演、舞台設計、編劇等多方面的學習。</p>
+      </div>
+      <div class="col-md-6">
+        <img src="about-image.jpg" alt="戲劇系圖片" class="img-fluid rounded">
+      </div>
+    </div>
+  </section>
+
+  <!-- 演員名單的部分 -->
+  <section class="container mt-5">
+    <h2 class="text-center">演員名單</h2>
+    <p class="text-center">精湛的演技，為您呈現一場難以忘懷的表演</p>
+    <ul class="list-group list-group-flush text-center">
+      <li class="list-group-item">林宸熙</li>
+      <li class="list-group-item">有夢</li>
+    </ul>
+  </section>
+
+  <!-- 暗戀桃花源活動的部分 -->
+  <section class="container mt-5">
+    <h2 class="text-center">暗戀桃花源</h2>
+    <p class="text-center">一場融合劇情、藝術和愛的夢幻之夜</p>
+    <p class="text-center">演出日期：2023年11月23日</p>
+    <div class="text-center">
+      <a class="btn btn-outline-dark btn-lg" href="#signup" role="button">立即報名</a>
+    </div>
+  </section>
+
+  <!-- 報名表單的部分 -->
+  <section id="signup" class="container mt-5">
+    <h2 class="text-center">立即報名</h2>
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputName">姓名</label>
+          <input type="text" class="form-control" id="inputName" placeholder="請輸入您的姓名">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="請輸入您的Email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputMessage">留言</label>
+        <textarea class="form-control" id="inputMessage" rows="4" placeholder="有什麼想告訴我們的嗎？"></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark">送出報名</button>
+    </form>
+  </section>
+
+  <!-- Bootstrap JavaScript 和其他相依的 JavaScript 庫 -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
